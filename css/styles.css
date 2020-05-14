@@ -1,0 +1,165 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat';
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: grey;
+}
+
+/* Headings */
+
+#tophead {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.price-text , .testimonial-text , .section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.carousel-item{
+    padding: 5% 10%;
+}
+
+#cta {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.down-btn{
+    margin: 5% 3% 5% 0%;
+}
+
+.dog-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right :30%;
+    
+}
+
+#endh {
+
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#features {
+    padding: 90px 0 90px 0;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding:3%;
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.fot-img {
+    margin: 5% 1% 4% 1%;
+}
+
+
+    
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:  #ff4c68;
+}
+
+
+
+
+
+/* navigation bar */
+
+
+
+
+.test-img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Monstserrat';
+    font-weight: lighter;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+#press {
+    
+    padding-bottom: 3%;
+}
+.press-logo{
+    width :15%;
+    margin:20px 20px 15px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price-col{
+    padding: 3% 2%;
+}
+
+.colored {
+    background-color: #ff4c68;
+    color: white;
+}
+.white{
+    background-color: white;
+}
+/* Media Queries */
+
+@media (max-width: 1028px) {
+
+    .dog-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    
+}
